@@ -7,3 +7,4 @@ __pycache__/
 .ruff_cache/
 .history/
 .env
+jira_sprint_api.egg-info/

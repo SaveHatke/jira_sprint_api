@@ -21,7 +21,9 @@ fi
 
 # --- activate venv ---
 # shellcheck disable=SC1091
-source "$VENV_DIR/bin/activate"
+#linux source "$VENV_DIR/bin/activate"
+
+source "$VENV_DIR/Scripts/activate"
 
 python -m pip install -U pip >/dev/null
 
